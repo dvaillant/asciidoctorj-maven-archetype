@@ -1,0 +1,35 @@
+= {artifact}
+author <email>
+
+V{version}
+
+****
+Asciidoc readme file example.
+****
+
+== Readme
+
+This __readme.adoc__ file is an example. Visit http://asciidoctor.org/docs/asciidoctor-maven-plugin/[asciidoctor-maven-plugin] page for more informations.
+
+=== Usage
+
+To generate html, run the command below
+
+[code, shell]
+---
+mvn generate-resources
+---
+
+You should find the __readme.html__ file into {bas}
+
+=== Diagram example
+
+Plain-text diagram processing is configured by default. You can include in your readme file some plantuml, Ditaa or others. Please visit http://asciidoctor.org/news/2014/02/18/plain-text-diagrams-in-asciidoctor/[official documentation] for more informations.
+
+.The PlantUML block extension class
+[plantuml, sample-plantuml-diagram, alt="Class diagram", width=135, height=118]
+----
+class BlockProcessor
+class PlantUmlBlock
+BlockProcessor <|-- PlantUmlBlock
+----
