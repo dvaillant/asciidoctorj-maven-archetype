@@ -1,0 +1,19 @@
+= asciidoctorj-maven-archetype
+
+This project provide differents maven archetype for initialize java project with asciidoctorj plugin configuration.
+
+== Build
+
+[code,shell]
+----
+maven install
+----
+
+== Usage
+
+To use an archetype :
+
+[code,shell]
+----
+maven archetype:generate -DarchetypeCatalog=local
+----
