@@ -6,7 +6,7 @@ This project provide differents maven archetype for initialize java project with
 
 [code,shell]
 ----
-maven install
+mvn install
 ----
 
 == Usage
@@ -15,5 +15,5 @@ To use an archetype :
 
 [code,shell]
 ----
-maven archetype:generate -DarchetypeCatalog=local
+mvn archetype:generate -DarchetypeCatalog=local
 ----
